@@ -1,0 +1,14 @@
+# AURIX Development Studio 编译产物
+Debug/
+
+# IDE 元数据
+.ads/
+.reasonix/
+.settings/
+
+# 编译中间文件
+*.o
+*.d
+
+# Eclipse/ADS 调试配置（含本机绝对路径）
+*.launch
