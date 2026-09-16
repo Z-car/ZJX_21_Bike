@@ -1,6 +1,6 @@
-# ADS_ZJX_bike_project
+# ZJX_21届单车定向
 
-基于英飞凌 AURIX TC264 的智能车工程（自平衡单车）。
+基于英飞凌 AURIX TC264 的智能车工程（21届单车定向）。
 
 ## 代码结构
 
@@ -56,3 +56,12 @@ ZJX_ADS_Bike/
 │   └── infineon_libraries 英飞凌 iLLD 底层驱动
 └── .cproject / .project  ADS 工程文件
 ```
+
+## 第三方库声明
+
+本项目使用了以下第三方库，版权归原作者所有，**仅供学习交流使用**，请勿用于商业用途：
+
+| 目录 | 来源 | 说明 |
+|------|------|------|
+| `libraries/zf_*` | 逐飞科技（ZhuFei） | 电机 / 传感器等外设驱动库 |
+| `libraries/infineon_libraries` | 英飞凌（Infineon）iLLD | AURIX TC264 底层驱动库 |
